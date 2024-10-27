@@ -1,0 +1,134 @@
+html{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 1800px;
+    font-family: Roboto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: #1f2937;
+    color: white;
+    padding: 10px 190px;
+    
+}
+
+#left-links, #right-links{
+    display: flex;
+    flex: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+#left-links{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+#right-links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 140px 190px;
+}
+
+#hero-left{
+    flex: 1;
+
+}
+
+#hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#hero-secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img{
+    width: 500px;
+    height: 250px;
+    background-color: gray;
+}
+
+.info{
+    text-align: center;
+    padding: 80px 265px;
+    background-color: white;
+}
+
+#info-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.quote{
+    padding: 80px 265px;
+    background-color: #E5E7EB;
+}
+
+#quote-top{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quote-bottom{
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cta{
+    padding: 80px 0px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 40px 100px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.footer{
+    padding: 30px 150px;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
