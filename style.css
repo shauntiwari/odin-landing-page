@@ -18,7 +18,7 @@ body{
     align-items: center;    
     background-color: #1f2937;
     color: white;
-    padding: 10px 190px;
+    padding: 20px 190px;
     
 }
 
@@ -38,7 +38,10 @@ body{
 }
 
 #right-links{
+    display: flex;
+    justify-content: flex-end;
     font-size: 18px;
+    gap: 20px;
     color: #E5E7EB;
 }
 
@@ -48,12 +51,23 @@ body{
     align-items: center;
     background-color: #1f2937;
     color: white;
-    padding: 140px 190px;
+    padding: 120px 190px;
 }
 
 #hero-left{
     flex: 1;
+}
 
+#hero-left button{
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 10px;
 }
 
 #hero-right{
@@ -61,6 +75,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#hero-right img{
+    width: 500px;
+    height: 250px;
+    background-color: gray;
 }
 
 #hero-main-text{
@@ -73,21 +93,33 @@ body{
     color: #E5E7EB;
 }
 
-img{
-    width: 500px;
-    height: 250px;
-    background-color: gray;
-}
-
 .info{
     text-align: center;
-    padding: 80px 265px;
+    padding: 60px 265px;
     background-color: white;
 }
 
-#info-bottom{
+#info-top{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+#info-cards{
     display: flex;
     justify-content: center;
+    gap: 60px;
+    color: gray;
+}
+
+#info-cards img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: gray;
+    border: 5px solid #3882F6;
+    margin-bottom: 10px;
 }
 
 .quote{
@@ -115,15 +147,33 @@ img{
     align-items: center;
 }
 
+#cta-header{
+    font-size: 24px;
+    font-weight: bold;
+}
+
 #container{
     display: flex;
     background-color: #3882F6;
     color: white;
-    padding: 40px 100px;
-    width: 800px;
+    padding: 40px 80px;
+    width: 850px;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    border-radius: 10px;
+    gap: 250px;
+}
+
+#container button{
+    width: 150px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: white solid 2px;
+    padding: 10px 20px;
+    margin-top: 10px;    
 }
 
 .footer{
